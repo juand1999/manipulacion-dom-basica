@@ -1,0 +1,238 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/macos,windows,linux,visualstudiocode,node 
+# Editar en https://www.toptal.com/developers/gitignore?templates=macos,windows ,linux,visualstudiocode,node 
+
+### Linux ### 
+*~ 
+
+# archivos temporales que se pueden crear si un proceso todavía tiene un identificador abierto de un archivo eliminado 
+.fuse_hidden* 
+
+# Preferencias del directorio de KDE 
+.directory 
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco 
+.Trash-* 
+
+# Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se accede a él 
+.nfs* 
+
+### macOS ### 
+# General 
+.DS_Store 
+.AppleDouble 
+.LSOverride 
+
+# El icono debe terminar con dos \r 
+Icono 
+
+
+# Miniaturas 
+._* 
+
+# Archivos que pueden aparecer en la raíz de un volumen 
+.DocumentRevisions-V100 
+.fseventsd 
+.Spotlight-V100 
+.TemporaryItems 
+.Trashes 
+.VolumeIcon.icns 
+.com.apple.timemachine.donotpresent 
+
+# Directorios potencialmente creados en recurso compartido AFP remoto 
+.AppleDB 
+.AppleDesktop 
+Carpeta de papelera de red 
+Elementos temporales 
+.apdisk 
+
+### Parche de macOS ### 
+# Archivos generados por iCloud 
+*.icloud 
+
+### Nodo ### 
+# 
+Registros de registros 
+*.log 
+npm-debug.log* 
+hilo- debug.log* 
+Yarn-error.log* 
+lerna-debug.log* 
+.pnpm-debug.log* 
+
+# Informe de informes de diagnóstico (https://nodejs.org/api/report.html).[0-9]* 
+. [0-9]*.[0-9]*.[0-9]*.json 
+
+# 
+Pids de datos de tiempo de ejecución 
+*.pid 
+*.seed 
+*.pid.lock 
+
+# Directorio para bibliotecas instrumentadas generadas por jscoverage/JSCover 
+lib-cov 
+
+# Directorio de cobertura utilizado por herramientas como 
+cobertura de Estambul 
+*.lcov 
+
+# Cobertura de prueba de Nueva York 
+.nyc_output 
+
+# Almacenamiento intermedio Grunt (https://gruntjs.com/creating-plugins#storing-task-files) 
+.grunt 
+
+# Directorio de dependencia Bower (https: //bower.io/) 
+bower_components 
+
+# configuración de nodo-waf 
+.lock-wscript 
+
+# Complementos binarios compilados (https://nodejs.org/api/addons.html) 
+build/Release 
+
+# Directorios de dependencia 
+node_modules/ 
+jspm_packages/ 
+
+# Directorio de dependencia de Snowpack (https://snowpack.dev/) 
+web_modules/ 
+
+# Caché de TypeScript 
+*.tsbuildinfo 
+
+# Directorio de caché npm opcional 
+.npm 
+
+# Caché eslint opcional 
+.eslintcache
+
+# Caché de stylelint opcional 
+.stylelintcache 
+
+# Caché de microbundle 
+.rpt2_cache/ 
+.rts2_cache_cjs/ 
+.rts2_cache_es/ 
+.rts2_cache_umd/ 
+
+# Historial de REPL opcional 
+.node_repl_history 
+
+# Salida de 'npm pack' 
+*.tgz 
+
+# Archivo de integridad de hilo 
+.yarn-integrity 
+
+# Archivos de variables de entorno dotenv 
+.env 
+.env.development.local 
+.env.test.local 
+.env.production.local 
+.env.local 
+
+# caché de paquetes de paquetes (https://parceljs.org/) 
+.cache 
+.parcel-cache 
+
+# compilación de Next.js salida 
+.next 
+out 
+
+# Nuxt.js build/generar salida 
+.nuxt 
+dist 
+
+# Archivos Gatsby 
+.cache/ 
+# Comenta en la línea pública si tu proyecto usa Gatsby y no Next.js 
+# https://nextjs.org/blog/next -9-1#public-directory-support 
+# public 
+
+# salida de compilación de vuepress 
+.vuepress/dist 
+
+# directorio temporal y de caché de vuepress v2.x 
+.temp 
+
+# caché de Docusaurus y archivos generados 
+.docusaurus 
+
+# directorios sin servidor 
+.serverless/ 
+
+# caché de FuseBox 
+.fusebox / 
+
+# Archivos locales de DynamoDB 
+.dynamodb/ 
+
+# Archivo de puerto TernJS 
+.tern-port 
+
+# Almacena las versiones de VSCode utilizadas para probar las extensiones de VSCode 
+.vscode-test 
+
+# Yarn v2 
+.yarn/cache 
+.yarn/unplugged 
+.yarn/build-state.yml 
+.yarn /install-state.gz 
+.pnp.* 
+
+### Parche de nodo ### 
+# Directorios de paquete web sin servidor 
+.webpack/ 
+
+# Caché de estilo opcional 
+
+# SvelteKit compila/genera salida 
+.svelte-kit 
+
+### VisualStudioCode ### 
+.vscode
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+!.vscode/*.code-snippets 
+
+# Historial local para Visual Studio Code 
+.history/ 
+
+# Visual integrado Extensiones de Studio Code 
+*.vsix 
+
+### VisualStudioCode Patch ### 
+# Ignorar todo el historial local de archivos 
+.history 
+.ionide 
+
+### Windows ### 
+# Archivos de caché de miniaturas de Windows 
+Thumbs.db 
+Thumbs.db:encryptable 
+ehthumbs.db 
+ehthumbs_vista. db 
+
+# Archivo de volcado 
+*.stackdump 
+
+# Archivo de configuración de carpeta 
+[Dd]esktop.ini 
+
+# Papelera de reciclaje utilizada en archivos compartidos 
+$RECYCLE.BIN/ 
+
+# Archivos de Windows Installer 
+*.cab 
+*.msi
+*.msix 
+*.msm 
+*.msp 
+
+# Accesos directos de Windows 
+*.lnk 
+
+# Fin de https://www.toptal.com/developers/gitignore/api/macos,windows,linux,visualstudiocode,node
